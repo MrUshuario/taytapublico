@@ -1,0 +1,8 @@
+{
+  "listaInfo" :
+  [
+    { "enunciado" : "Código Equipo",  "cuerpo": "40F877454512" },
+    { "enunciado" : "Versión App Instalada",  "cuerpo": "1.2" },
+    { "enunciado" : "Version App Vigente",  "cuerpo": "1.2" }
+  ]
+}

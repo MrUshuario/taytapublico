@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.vai.device_imei-merged_res-10:/drawable/notification_tile_bg.xml",
+        "source": "com.vai.device_imei-core-1.6.0-3:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "com.vai.device_imei-merged_res-10:/drawable/notification_bg.xml",
+        "source": "com.vai.device_imei-core-1.6.0-3:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "com.vai.device_imei-merged_res-10:/drawable/notification_icon_background.xml",
+        "source": "com.vai.device_imei-core-1.6.0-3:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "com.vai.device_imei-merged_res-10:/drawable/notification_bg_low.xml",
+        "source": "com.vai.device_imei-core-1.6.0-3:/drawable/notification_bg_low.xml"
+    }
+]

@@ -1,0 +1,14 @@
+io.flutter.plugins.videoplayer.video_player_android-jetified-window-1.0.0-beta04-0 C:\Users\Edgar\.gradle\caches\transforms-3\0070cf36121aeeb4a714234b9f52d8b7\transformed\jetified-window-1.0.0-beta04\res
+io.flutter.plugins.videoplayer.video_player_android-jetified-window-java-1.0.0-beta04-1 C:\Users\Edgar\.gradle\caches\transforms-3\014cc38c8408df31dc73bb9bf5f51109\transformed\jetified-window-java-1.0.0-beta04\res
+io.flutter.plugins.videoplayer.video_player_android-jetified-exoplayer-core-2.18.7-2 C:\Users\Edgar\.gradle\caches\transforms-3\035152169103da0cf755e6be1ca8596d\transformed\jetified-exoplayer-core-2.18.7\res
+io.flutter.plugins.videoplayer.video_player_android-core-1.7.0-3 C:\Users\Edgar\.gradle\caches\transforms-3\5833436f3b341e9a4ec598b360e0df82\transformed\core-1.7.0\res
+io.flutter.plugins.videoplayer.video_player_android-jetified-annotation-experimental-1.1.0-4 C:\Users\Edgar\.gradle\caches\transforms-3\8483d258be040f0e5637047229a1798a\transformed\jetified-annotation-experimental-1.1.0\res
+io.flutter.plugins.videoplayer.video_player_android-lifecycle-runtime-2.3.1-5 C:\Users\Edgar\.gradle\caches\transforms-3\d1555a4f2adde0d8f4fa113d53edd669\transformed\lifecycle-runtime-2.3.1\res
+io.flutter.plugins.videoplayer.video_player_android-main-6 C:\Users\Edgar\AppData\Local\Pub\Cache\hosted\pub.dev\video_player_android-2.4.12\android\src\main\res
+io.flutter.plugins.videoplayer.video_player_android-release-7 C:\Users\Edgar\AppData\Local\Pub\Cache\hosted\pub.dev\video_player_android-2.4.12\android\src\release\res
+io.flutter.plugins.videoplayer.video_player_android-pngs-8 C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\video_player_android\generated\res\pngs\release
+io.flutter.plugins.videoplayer.video_player_android-resValues-9 C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\video_player_android\generated\res\resValues\release
+io.flutter.plugins.videoplayer.video_player_android-rs-10 C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\video_player_android\generated\res\rs\release
+io.flutter.plugins.videoplayer.video_player_android-mergeReleaseResources-11 C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\video_player_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.videoplayer.video_player_android-mergeReleaseResources-12 C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\video_player_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.videoplayer.video_player_android-merged_res-13 C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\video_player_android\intermediates\merged_res\release

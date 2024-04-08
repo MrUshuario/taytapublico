@@ -1,0 +1,3 @@
+Ademas de instalar el FLUTTER BLOC
+
+tambien se debe instalar la libreria.

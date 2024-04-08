@@ -1,0 +1,256 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pension.tayta"
+4    android:versionCode="5"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml
+10    <!-- <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" /> -->
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission
+12-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:4:5-6:38
+13        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+13-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:5:9-65
+14        android:maxSdkVersion="18" />
+14-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:6:9-35
+15    <uses-permission
+15-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:4:5-6:38
+16        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+16-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:5:9-65
+17        android:maxSdkVersion="18" />
+17-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:6:9-35
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:10:5-74
+18-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:10:22-72
+19    <!-- <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/> -->
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:12:5-78
+20-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:12:22-76
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:13:5-80
+21-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:13:22-78
+22    <!-- <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/> -->
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+23-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:15:5-77
+23-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:15:22-74
+24    <!--
+25         Required to query activities that can process text, see:
+26         https://developer.android.com/training/package-visibility?hl=en and
+27         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+28
+29         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+30    -->
+31    <queries>
+31-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:53:5-58:15
+32        <intent>
+32-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:54:9-57:18
+33            <action android:name="android.intent.action.PROCESS_TEXT" />
+33-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:55:13-72
+33-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:55:21-70
+34
+35            <data android:mimeType="text/plain" />
+35-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:56:13-50
+35-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:56:19-48
+36        </intent>
+37        <intent>
+37-->[:file_picker] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-18:18
+38            <action android:name="android.intent.action.GET_CONTENT" />
+38-->[:file_picker] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-72
+38-->[:file_picker] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:15:21-69
+39
+40            <data android:mimeType="*/*" />
+40-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:56:13-50
+40-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:56:19-48
+41        </intent>
+42    </queries>
+43
+44    <uses-permission
+44-->[:file_picker] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-11:38
+45        android:name="android.permission.READ_EXTERNAL_STORAGE"
+45-->[:file_picker] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-64
+46        android:maxSdkVersion="32" />
+46-->[:file_picker] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:11:9-35
+47    <uses-permission android:name="android.permission.CAMERA" />
+47-->[:camera_android] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-65
+47-->[:camera_android] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-62
+48    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+48-->[:camera_android] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-71
+48-->[:camera_android] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-68
+49    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+49-->[:connectivity_plus] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-79
+49-->[:connectivity_plus] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-76
+50    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+50-->[:device_imei] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\device_imei\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-86
+50-->[:device_imei] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\device_imei\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-83
+51
+52    <permission
+52-->[androidx.core:core:1.10.1] C:\Users\Edgar\.gradle\caches\transforms-3\2be3bae97c9eead1f78018c41b328aac\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+53        android:name="com.pension.tayta.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+53-->[androidx.core:core:1.10.1] C:\Users\Edgar\.gradle\caches\transforms-3\2be3bae97c9eead1f78018c41b328aac\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+54        android:protectionLevel="signature" />
+54-->[androidx.core:core:1.10.1] C:\Users\Edgar\.gradle\caches\transforms-3\2be3bae97c9eead1f78018c41b328aac\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+55
+56    <uses-permission android:name="com.pension.tayta.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+56-->[androidx.core:core:1.10.1] C:\Users\Edgar\.gradle\caches\transforms-3\2be3bae97c9eead1f78018c41b328aac\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+56-->[androidx.core:core:1.10.1] C:\Users\Edgar\.gradle\caches\transforms-3\2be3bae97c9eead1f78018c41b328aac\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+57
+58    <application
+59        android:name="android.app.Application"
+59-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:18:9-42
+60        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+60-->[androidx.core:core:1.10.1] C:\Users\Edgar\.gradle\caches\transforms-3\2be3bae97c9eead1f78018c41b328aac\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+61        android:enableOnBackInvokedCallback="true"
+61-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:19:9-51
+62        android:icon="@mipmap/ic_launcher"
+62-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:20:9-43
+63        android:label="tayta" >
+63-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:17:9-30
+64        <activity
+64-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:21:9-41:20
+65            android:name="com.pension.tayta.MainActivity"
+65-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:22:13-41
+66            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+66-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:26:13-163
+67            android:exported="true"
+67-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:23:13-36
+68            android:hardwareAccelerated="true"
+68-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:27:13-47
+69            android:launchMode="singleTop"
+69-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:24:13-43
+70            android:theme="@style/LaunchTheme"
+70-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:25:13-47
+71            android:windowSoftInputMode="adjustResize" >
+71-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:28:13-55
+72
+73            <!--
+74                 Specifies an Android theme to apply to this Activity as soon as
+75                 the Android process has started. This theme is visible to the user
+76                 while the Flutter UI initializes. After that, this theme continues
+77                 to determine the Window background behind the Flutter UI.
+78            -->
+79            <meta-data
+79-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:33:13-36:17
+80                android:name="io.flutter.embedding.android.NormalTheme"
+80-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:34:15-70
+81                android:resource="@style/NormalTheme" />
+81-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:35:15-52
+82
+83            <intent-filter>
+83-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:37:13-40:29
+84                <action android:name="android.intent.action.MAIN" />
+84-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:38:17-68
+84-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:38:25-66
+85
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:39:17-76
+86-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:39:27-74
+87            </intent-filter>
+88        </activity>
+89        <!--
+90             Don't delete the meta-data below.
+91             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+92        -->
+93        <meta-data
+93-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:44:9-46:33
+94            android:name="flutterEmbedding"
+94-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:45:13-44
+95            android:value="2" />
+95-->C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\android\app\src\main\AndroidManifest.xml:46:13-30
+96
+97        <activity
+97-->[:url_launcher_android] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+98            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+98-->[:url_launcher_android] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+99            android:exported="false"
+99-->[:url_launcher_android] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+100            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+100-->[:url_launcher_android] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+101
+102        <provider
+102-->[:open_file] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\open_file\intermediates\merged_manifest\release\AndroidManifest.xml:11:9-20:20
+103            android:name="com.crazecoder.openfile.FileProvider"
+103-->[:open_file] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\open_file\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-64
+104            android:authorities="com.pension.tayta.fileProvider.com.crazecoder.openfile"
+104-->[:open_file] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\open_file\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-88
+105            android:exported="false"
+105-->[:open_file] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\open_file\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-37
+106            android:grantUriPermissions="true" >
+106-->[:open_file] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\open_file\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-47
+107            <meta-data
+107-->[:open_file] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\open_file\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-19:53
+108                android:name="android.support.FILE_PROVIDER_PATHS"
+108-->[:open_file] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\open_file\intermediates\merged_manifest\release\AndroidManifest.xml:18:17-67
+109                android:resource="@xml/filepaths" />
+109-->[:open_file] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\open_file\intermediates\merged_manifest\release\AndroidManifest.xml:19:17-50
+110        </provider>
+111
+112        <service
+112-->[:location] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-17:56
+113            android:name="com.lyokone.location.FlutterLocationService"
+113-->[:location] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-71
+114            android:enabled="true"
+114-->[:location] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-35
+115            android:exported="false"
+115-->[:location] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-37
+116            android:foregroundServiceType="location" />
+116-->[:location] C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-53
+117
+118        <uses-library
+118-->[androidx.window:window:1.0.0-beta04] C:\Users\Edgar\.gradle\caches\transforms-3\0070cf36121aeeb4a714234b9f52d8b7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+119            android:name="androidx.window.extensions"
+119-->[androidx.window:window:1.0.0-beta04] C:\Users\Edgar\.gradle\caches\transforms-3\0070cf36121aeeb4a714234b9f52d8b7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+120            android:required="false" />
+120-->[androidx.window:window:1.0.0-beta04] C:\Users\Edgar\.gradle\caches\transforms-3\0070cf36121aeeb4a714234b9f52d8b7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+121        <uses-library
+121-->[androidx.window:window:1.0.0-beta04] C:\Users\Edgar\.gradle\caches\transforms-3\0070cf36121aeeb4a714234b9f52d8b7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+122            android:name="androidx.window.sidecar"
+122-->[androidx.window:window:1.0.0-beta04] C:\Users\Edgar\.gradle\caches\transforms-3\0070cf36121aeeb4a714234b9f52d8b7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+123            android:required="false" />
+123-->[androidx.window:window:1.0.0-beta04] C:\Users\Edgar\.gradle\caches\transforms-3\0070cf36121aeeb4a714234b9f52d8b7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+124
+125        <activity
+125-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Edgar\.gradle\caches\transforms-3\b606d094f907907331433562b7ec9e60\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+126            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+126-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Edgar\.gradle\caches\transforms-3\b606d094f907907331433562b7ec9e60\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+127            android:exported="false"
+127-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Edgar\.gradle\caches\transforms-3\b606d094f907907331433562b7ec9e60\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+128            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+128-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Edgar\.gradle\caches\transforms-3\b606d094f907907331433562b7ec9e60\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+129
+130        <meta-data
+130-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Edgar\.gradle\caches\transforms-3\c7e4afd27cbe93710d68b7345f16dabc\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+131            android:name="com.google.android.gms.version"
+131-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Edgar\.gradle\caches\transforms-3\c7e4afd27cbe93710d68b7345f16dabc\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+132            android:value="@integer/google_play_services_version" />
+132-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Edgar\.gradle\caches\transforms-3\c7e4afd27cbe93710d68b7345f16dabc\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+133
+134        <provider
+134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Edgar\.gradle\caches\transforms-3\76d44a9e1c788c72a153f7e710172869\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+135            android:name="androidx.startup.InitializationProvider"
+135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Edgar\.gradle\caches\transforms-3\76d44a9e1c788c72a153f7e710172869\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+136            android:authorities="com.pension.tayta.androidx-startup"
+136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Edgar\.gradle\caches\transforms-3\76d44a9e1c788c72a153f7e710172869\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+137            android:exported="false" >
+137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Edgar\.gradle\caches\transforms-3\76d44a9e1c788c72a153f7e710172869\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+138            <meta-data
+138-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Edgar\.gradle\caches\transforms-3\76d44a9e1c788c72a153f7e710172869\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+139                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+139-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Edgar\.gradle\caches\transforms-3\76d44a9e1c788c72a153f7e710172869\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+140                android:value="androidx.startup" />
+140-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Edgar\.gradle\caches\transforms-3\76d44a9e1c788c72a153f7e710172869\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+141            <meta-data
+141-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Edgar\.gradle\caches\transforms-3\df32378ba00a04bcb585d4e1b0405259\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+142                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+142-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Edgar\.gradle\caches\transforms-3\df32378ba00a04bcb585d4e1b0405259\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+143                android:value="androidx.startup" />
+143-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Edgar\.gradle\caches\transforms-3\df32378ba00a04bcb585d4e1b0405259\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+144        </provider>
+145    </application>
+146
+147</manifest>

@@ -1,0 +1,1 @@
+ C:\\Users\\Edgar\\Desktop\\Trabajos\\flutter_sisope\\Proyecto_sisope\\taytapension\\.dart_tool\\flutter_build\\0e1ea7898f212d5e99f2415f92bd42ab\\native_assets.yaml: 

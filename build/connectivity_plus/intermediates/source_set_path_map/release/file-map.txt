@@ -1,0 +1,12 @@
+dev.fluttercommunity.plus.connectivity.connectivity_plus-jetified-window-1.0.0-beta04-0 C:\Users\Edgar\.gradle\caches\transforms-3\0070cf36121aeeb4a714234b9f52d8b7\transformed\jetified-window-1.0.0-beta04\res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-jetified-window-java-1.0.0-beta04-1 C:\Users\Edgar\.gradle\caches\transforms-3\014cc38c8408df31dc73bb9bf5f51109\transformed\jetified-window-java-1.0.0-beta04\res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-jetified-annotation-experimental-1.1.0-2 C:\Users\Edgar\.gradle\caches\transforms-3\8483d258be040f0e5637047229a1798a\transformed\jetified-annotation-experimental-1.1.0\res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-core-1.6.0-3 C:\Users\Edgar\.gradle\caches\transforms-3\8999a62093f7e551ced3b07caff7e38a\transformed\core-1.6.0\res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-main-4 C:\Users\Edgar\AppData\Local\Pub\Cache\hosted\pub.dev\connectivity_plus-5.0.2\android\src\main\res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-release-5 C:\Users\Edgar\AppData\Local\Pub\Cache\hosted\pub.dev\connectivity_plus-5.0.2\android\src\release\res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-pngs-6 C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\connectivity_plus\generated\res\pngs\release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-resValues-7 C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\connectivity_plus\generated\res\resValues\release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-rs-8 C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\connectivity_plus\generated\res\rs\release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-mergeReleaseResources-9 C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\connectivity_plus\intermediates\incremental\release\mergeReleaseResources\merged.dir
+dev.fluttercommunity.plus.connectivity.connectivity_plus-mergeReleaseResources-10 C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\connectivity_plus\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+dev.fluttercommunity.plus.connectivity.connectivity_plus-merged_res-11 C:\Users\Edgar\Desktop\Trabajos\flutter_sisope\Proyecto_sisope\taytapension\build\connectivity_plus\intermediates\merged_res\release

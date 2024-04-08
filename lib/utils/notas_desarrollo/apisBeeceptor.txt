@@ -1,0 +1,91 @@
+https://sisope1.free.beeceptor.com/
+
+select DNI from USER_P65.USUARIO WHERE ROWNUM <20;
+
+almacenamiento local, puras apis.
+configuracion inicial en le mind par aconseguir apis
+
+CREATE HTTP CLIENT, cambiarle el certificado por default.
+
+LISTA DE ICONS
+https://www.fluttericon.com/
+
+VISITA PRESENCIAL
+VERIFICACION REMOTA
+VISITA COLECTIVA
+ASISTENICA TECNICA
+
+WEB:
+
+https://sisope.pension65.gob.pe/p65/main.jsp
+
+CONTRAEÑA
+User: pension
+Clave:  territorio2026
+
+
+1) VER EL MENU DE OPCXIONES
+
+flutter pub add permission_handler
+///////////
+flutter packages pub run build_runner build
+//////////////////////////////////////////////
+
+"ESTAS SEGURO QUE DESEAS ELIMINAR LA FOTO?"
+
+https://pub.dev/packages/file_picker
+
+NOTA 1 KALI
+-Cuando se agrega una nueva img se recarga el emulador de nuevo
+-Si se modifica la base de datos, se borra la aplicación desde el emulador y se reinstala ejecutando
+git status
+git add .
+git commit -m borrartabla
+git push
+
+
+      versionAplicacion: json['versionAplicacion'],
+      versionCondicion: json['versionCondicion'],
+      versionOperador: json['versionOperador'],
+      imei: json['imei'],
+
+      Menos realizar padron y reporte de usuarios
+
+EN EL CODIGO ORIGINAL CUANDO HAY UN ERROR O VACIO EL DNI SE VUELVE 5555
+
+CUIDADO CON ENVIAR DNI CON LETRAS HACE QUE SE CAIGA EL MAPS DE TOD EL DIA!
+
+
+Inicio/Fin actividad // PERFECT!
+Sitaucion de Riesgo, //problemas con fecha y selects BD
+Bitacora // problemas con KILOMETRAJE y faltan fotos, Guardado solo placa
+Contacto referencia, //(falta icono BUSCAR)
+
+
+
+//MUY COMPLICADOS
+
+Visita Presencial, ( VISITA ACTIVITY INICIO (SI, misma page) / VISITA ACTIVITY (No, cambia page))
+Verificacion Remota,
+
+
+EL ID TIPO DEBE ENLAZARSE AL TIPO DE ACTIVIDAD:
+
+
+PAGAR TARJETA (CAPACITACION, TARJETA, DESEMBOLSO DE DINERO)
+SE OPTA POR IR HASTA ELLOS; UNA VEZ AL MES EN ALGUNOS DISTRITOS, PROVINCIAS.
+
+(TERCERO ES CUANDO VAN HACIA EL USUARIO ANCIANO) ETV Empresa de Transporte de Viaticos
+(Cuando los grupos van a capacitar al usuario) MOBIL APERTURA DE OFICINA
+(Tercero autorizado, alguien cobra por el usuario) TERCERO AUTORIZADO
+
+SE LISTAN LAS ENTIDADES BANCARIAS SEGUN SU UBIGEO ()
+
+EN LA API
+
+EN OPERATIVA (MODERNIZACION DE PAGO)
+CONSULTA Y REGISTRO (
+
+
+      //PARA QUE NO PUEDA CERRAR UN DIALOG
+      barrierDismissible: false,
